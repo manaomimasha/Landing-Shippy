@@ -241,6 +241,14 @@ body.dark-theme {
 /*=============== HOME ===============*/
 .home__container {
   row-gap: 3rem;
+  background-image: url('https://images.unsplash.com/photo-1594404430234-60cbba6b946c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Establece la altura del contenedor para que cubra toda la pantalla */
+  display: flex; /* Asegura que el contenido del contenedor se alinee correctamente */
+  align-items: center; /* Centra el contenido verticalmente */
+  justify-content: center; 
 }
 
 .home__title {
